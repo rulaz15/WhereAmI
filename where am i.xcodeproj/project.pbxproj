@@ -12,6 +12,10 @@
 		F1E21C831CAA3587004390B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E21C811CAA3587004390B3 /* Main.storyboard */; };
 		F1E21C851CAA3587004390B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E21C841CAA3587004390B3 /* Assets.xcassets */; };
 		F1E21C881CAA3587004390B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E21C861CAA3587004390B3 /* LaunchScreen.storyboard */; };
+		F1E21C901CAA3666004390B3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E21C8F1CAA3666004390B3 /* CoreLocation.framework */; };
+		F1E21C961CAA3955004390B3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21C951CAA3955004390B3 /* MapViewController.swift */; };
+		F1F70E7B1CAAEB2800EEE9F5 /* 8097.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F70E7A1CAAEB2800EEE9F5 /* 8097.jpg */; };
+		F1F70E7D1CAAECB100EEE9F5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F70E7C1CAAECB100EEE9F5 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F1E21C841CAA3587004390B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1E21C871CAA3587004390B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1E21C891CAA3587004390B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E21C8F1CAA3666004390B3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F1E21C951CAA3955004390B3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F1F70E7A1CAAEB2800EEE9F5 /* 8097.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8097.jpg; sourceTree = "<group>"; };
+		F1F70E7C1CAAECB100EEE9F5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E21C901CAA3666004390B3 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +47,7 @@
 		F1E21C711CAA3583004390B3 = {
 			isa = PBXGroup;
 			children = (
+				F1E21C8F1CAA3666004390B3 /* CoreLocation.framework */,
 				F1E21C7C1CAA3586004390B3 /* where am i */,
 				F1E21C7B1CAA3584004390B3 /* Products */,
 			);
@@ -57,9 +67,12 @@
 				F1E21C7D1CAA3587004390B3 /* AppDelegate.swift */,
 				F1E21C7F1CAA3587004390B3 /* ViewController.swift */,
 				F1E21C811CAA3587004390B3 /* Main.storyboard */,
+				F1F70E7A1CAAEB2800EEE9F5 /* 8097.jpg */,
+				F1F70E7C1CAAECB100EEE9F5 /* Media.xcassets */,
 				F1E21C841CAA3587004390B3 /* Assets.xcassets */,
 				F1E21C861CAA3587004390B3 /* LaunchScreen.storyboard */,
 				F1E21C891CAA3587004390B3 /* Info.plist */,
+				F1E21C951CAA3955004390B3 /* MapViewController.swift */,
 			);
 			path = "where am i";
 			sourceTree = "<group>";
@@ -123,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F70E7D1CAAECB100EEE9F5 /* Media.xcassets in Resources */,
 				F1E21C881CAA3587004390B3 /* LaunchScreen.storyboard in Resources */,
+				F1F70E7B1CAAEB2800EEE9F5 /* 8097.jpg in Resources */,
 				F1E21C851CAA3587004390B3 /* Assets.xcassets in Resources */,
 				F1E21C831CAA3587004390B3 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1E21C801CAA3587004390B3 /* ViewController.swift in Sources */,
+				F1E21C961CAA3955004390B3 /* MapViewController.swift in Sources */,
 				F1E21C7E1CAA3587004390B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +305,7 @@
 				F1E21C8E1CAA3587004390B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
